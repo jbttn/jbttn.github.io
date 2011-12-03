@@ -1,0 +1,103 @@
+@import "lib/bootstrap.less";
+
+/* Japanese Zen Garden
+@baseColor:         #D8CAA8;
+@primaryColorOne:   #5C832F;
+@primaryColorTwo:   #284907;
+@secondaryColorOne: #382513;
+@secondaryColorTwo: #363942;
+*/
+
+@baseColor:          #000000;
+@mainColor:          #333333;
+@primaryColorOne:    #FF358B;
+@primaryColorTwo:    #01B0F0;
+@primaryColorThree:  #AEEE00;
+
+@lightTextColor:     @white;
+
+body {
+  padding-top: 60px;
+  background-color: @blue;
+  background-image: url('/img/square_bg.png');
+  color: @white;
+}
+
+a {
+  color: @white;
+}
+
+#main {
+  .border-radius();
+  .box-shadow();
+  //background-color: darken(@primaryColorThree, 10);
+  padding: 20px;
+  margin: 0 -20px;
+  //#gradient > .vertical(darken(@primaryColorThree, 5), @green);
+  #translucent.background(darken(@primaryColorTwo, 30), .3);
+}
+
+#main-sidebar {
+  //float: left;
+  //width: 200px;
+  border-right: 1px dashed @lightTextColor;
+  margin-left: 19px;
+}
+
+.main-sidebar-item {
+  border-top: 1px dashed @lightTextColor;
+  padding-bottom: 20px;
+}
+
+.image-links {
+  a {
+    margin-left: 20px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+/* Overwrite bootstrap */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: @lightTextColor;
+}
+
+li {
+  color: white;
+}
+
+a:hover {
+  color: @primaryColorThree;
+}
+
+.topbar a {
+  color: white;
+  &:hover {
+    color: @primaryColorThree !important;
+  }
+}
+
+.page-header {
+  border-bottom: 1px solid @lightTextColor;
+}
+
+footer {
+  border-top: 1px solid @lightTextColor;
+}
+
+.well {
+  //background-color: @primaryColorOne;
+  #translucent.background(@primaryColorTwo, .3);
+  //#gradient > .vertical(darken(@blue, 5), @blue);
+}
+
+.topbar-inner,
+.topbar .fill {
+  background-color: @primaryColorTwo;
+  #gradient > .vertical(darken(@primaryColorTwo, 30), darken(@blue, 30));
+  @shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  .box-shadow(@shadow);
+}
