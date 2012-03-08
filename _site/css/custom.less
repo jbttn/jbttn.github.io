@@ -3,6 +3,9 @@
 @baseSpacing: 20px;
 @linkColor: @blue;
 
+@adelle: adelle, "Helvetica Neue", sans-serif;
+@nimbus: "nimbus-sans", "Helvetica Neue", sans-serif;
+
 .centerize {
   text-align: center;
 }
@@ -23,6 +26,7 @@ body {
   background-image: url('/img/clouds.png');
   background-repeat: repeat-x;
   background-position-y: bottom;
+  font-family: @adelle;
 }
 
 .container {
@@ -32,11 +36,13 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-family: @adelle;
+  font-size: 16px;
 }
 
 h1, h2, h3 {
   color: white;
+  font-family: @nimbus;
 }
 
 div {
@@ -72,6 +78,17 @@ div {
   margin-bottom: @baseSpacing;
 }
 
+#gravatar {
+  float: left;
+  margin-right: 10px;
+  background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
+  width: 140px;
+  height: 140px;
+  &:hover {
+    background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f.png?size=140');
+  }
+}
+
 #social-networks li {
   display: inline;
 }
@@ -80,6 +97,14 @@ div {
   margin: -5px 0 10px;
   padding: @baseSpacing;
   //#translucent > .background(@white, .20);
+  
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    color: lighten(@red, 50);
+    font-weight: 200;
+  }
 }
 
 #main-content {

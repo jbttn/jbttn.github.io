@@ -3532,16 +3532,19 @@ body {
   background-image: url('/img/clouds.png');
   background-repeat: repeat-x;
   background-position-y: bottom;
+  font-family: adelle, "Helvetica Neue", sans-serif;
 }
 .container {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0 20px;
 }
 p {
-  font-size: 14px;
+  font-family: adelle, "Helvetica Neue", sans-serif;
+  font-size: 16px;
 }
 h1, h2, h3 {
   color: white;
+  font-family: "nimbus-sans", "Helvetica Neue", sans-serif;
 }
 #cloud {
   margin: 0;
@@ -3598,12 +3601,29 @@ h1, h2, h3 {
 .box {
   margin-bottom: 20px;
 }
+#gravatar {
+  float: left;
+  margin-right: 10px;
+  background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
+  width: 140px;
+  height: 140px;
+}
+#gravatar:hover {
+  background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f.png?size=140');
+}
 #social-networks li {
   display: inline;
 }
 #main-header {
   margin: -5px 0 10px;
   padding: 20px;
+}
+#main-header h1 {
+  font-size: 48px;
+}
+#main-header h3 {
+  color: #f4c8c5;
+  font-weight: 200;
 }
 #main-content {
   margin-top: 40px;
