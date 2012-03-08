@@ -3609,12 +3609,12 @@ h1, h2, h3 {
 #gravatar {
   float: left;
   margin-right: 10px;
-  background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
+  background-image: url('/img/jbttn.jpg');
   width: 140px;
   height: 140px;
 }
 #gravatar:hover {
-  background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f.png?size=140');
+  background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
 }
 #social-networks li {
   display: inline;
