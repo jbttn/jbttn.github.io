@@ -3542,6 +3542,8 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0 20px;
+  border-left: 1px dashed #FFF;
+  border-right: 1px dashed #FFF;
 }
 p {
   font-family: adelle, "Helvetica Neue", sans-serif;
@@ -3550,6 +3552,11 @@ p {
 h1, h2, h3 {
   color: white;
   font-family: "nimbus-sans", "Helvetica Neue", sans-serif;
+}
+img {
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
 #cloud {
   margin: 0;
@@ -3612,21 +3619,38 @@ h1, h2, h3 {
   background-image: url('/img/jbttn.jpg');
   width: 140px;
   height: 140px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
 #gravatar:hover {
   background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
 }
 #social-networks li {
   display: inline;
+  margin: 0 5px;
 }
 #main-header {
   margin: -5px 0 10px;
   padding: 20px;
+  padding-bottom: 5px;
+}
+#main-header ul {
+  margin-top: 10px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+#main-header ul li {
+  display: inline;
+  font-size: 18px;
 }
 #main-header h1 {
   font-size: 56px;
   color: #b32b21;
   text-shadow: 1px 1px rgba(244, 200, 197, 0.5);
+}
+#main-header h1 a {
+  color: #b32b21;
 }
 #main-header h2 {
   color: #eca09a;

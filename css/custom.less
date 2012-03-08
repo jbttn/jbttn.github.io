@@ -40,6 +40,8 @@ body {
   //#gradient > .vertical(lighten(@blue, 30), @blue);
   #translucent > .background(@black, .30);
   padding: 0 20px;
+  border-left: 1px dashed #FFF;
+  border-right: 1px dashed #FFF;
 }
 
 p {
@@ -52,8 +54,8 @@ h1, h2, h3 {
   font-family: @nimbus;
 }
 
-div {
-  //border: 1px solid #000;
+img {
+  .box-shadow(0px 1px 4px rgba(0,0,0,.4));
 }
 
 #cloud {
@@ -91,6 +93,7 @@ div {
   background-image: url('/img/jbttn.jpg');
   width: 140px;
   height: 140px;
+  .box-shadow(0px 1px 4px rgba(0,0,0,.4));
   &:hover {
     background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
   }
@@ -98,17 +101,31 @@ div {
 
 #social-networks li {
   display: inline;
+  margin: 0 5px;
 }
 
 #main-header {
   margin: -5px 0 10px;
   padding: @baseSpacing;
+  padding-bottom: 5px;
   //#translucent > .background(@white, .20);
   
+  ul {
+    margin-top: 10px;
+    margin-left: 0px;
+    list-style-type: none;
+    li {
+      display: inline;
+      font-size: 18px;
+    }
+  }
   h1 {
     font-size: 56px;
     color: lighten(@red, 5);
     text-shadow: 1px 1px rgba(244, 200, 197, 0.50);
+    a {
+      color: lighten(@red, 5);
+    }
   }
   h2 {
     color: lighten(@red, 40);
