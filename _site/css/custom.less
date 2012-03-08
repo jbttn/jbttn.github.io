@@ -1,7 +1,7 @@
 @import "lib/bootstrap.less";
 
 @baseSpacing: 20px;
-@linkColor: @blue;
+@linkColor: lighten(@blue, 20);
 
 @adelle: adelle, "Helvetica Neue", sans-serif;
 @nimbus: "nimbus-sans", "Helvetica Neue", sans-serif;
@@ -14,8 +14,15 @@
   #gradient > .vertical(lighten(@red, 30), lighten(@red, 20));
   .border-radius(2px);
   .box-shadow(0px 1px 4px rgba(0,0,0,.4));
+  
+  color: lighten(@red, 5);
+  text-shadow: 1px 1px rgba(244, 200, 197, 0.50);
+  
   a {
-    color: #CCC;
+    color: #333;
+  }
+  h3 {
+    font-size: 32px;
   }
 }
 
@@ -99,11 +106,15 @@ div {
   //#translucent > .background(@white, .20);
   
   h1 {
-    font-size: 48px;
+    font-size: 56px;
+    color: lighten(@red, 5);
+    text-shadow: 1px 1px rgba(244, 200, 197, 0.50);
   }
-  h3 {
-    color: lighten(@red, 50);
+  h2 {
+    color: lighten(@red, 40);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     font-weight: 200;
+    font-style: italic;
   }
 }
 

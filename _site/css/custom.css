@@ -113,11 +113,11 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #049cdb;
+  color: #49c7fc;
   text-decoration: none;
 }
 a:hover {
-  color: #036690;
+  color: #04aef4;
   text-decoration: underline;
 }
 .row {
@@ -1628,7 +1628,7 @@ table .span12 {
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #049cdb;
+  background-color: #49c7fc;
 }
 .dropdown.open {
   *z-index: 1000;
@@ -1836,16 +1836,16 @@ table .span12 {
   color: rgba(255, 255, 255, 0.75);
 }
 .btn-primary {
-  background-color: #047fdb;
-  background-image: -moz-linear-gradient(top, #049cdb, #0454db);
-  background-image: -ms-linear-gradient(top, #049cdb, #0454db);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#049cdb), to(#0454db));
-  background-image: -webkit-linear-gradient(top, #049cdb, #0454db);
-  background-image: -o-linear-gradient(top, #049cdb, #0454db);
-  background-image: linear-gradient(top, #049cdb, #0454db);
+  background-color: #49b0fc;
+  background-image: -moz-linear-gradient(top, #49c7fc, #498cfc);
+  background-image: -ms-linear-gradient(top, #49c7fc, #498cfc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#49c7fc), to(#498cfc));
+  background-image: -webkit-linear-gradient(top, #49c7fc, #498cfc);
+  background-image: -o-linear-gradient(top, #49c7fc, #498cfc);
+  background-image: linear-gradient(top, #49c7fc, #498cfc);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0454db', GradientType=0);
-  border-color: #0454db #0454db #033790;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#49c7fc', endColorstr='#498cfc', GradientType=0);
+  border-color: #498cfc #498cfc #045ef4;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -1854,10 +1854,10 @@ table .span12 {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #0454db;
+  background-color: #498cfc;
 }
 .btn-primary:active, .btn-primary.active {
-  background-color: #0341a9 \9;
+  background-color: #176cfb \9;
 }
 .btn-warning {
   background-color: #faa732;
@@ -2214,7 +2214,7 @@ button.btn.small, input[type="submit"].btn.small {
 .nav-list .active > a, .nav-list .active > a:hover {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #049cdb;
+  background-color: #49c7fc;
 }
 .nav-list [class^="icon-"] {
   margin-right: 2px;
@@ -2276,7 +2276,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .nav-pills .active > a, .nav-pills .active > a:hover {
   color: #ffffff;
-  background-color: #049cdb;
+  background-color: #49c7fc;
 }
 .nav-stacked > li {
   float: none;
@@ -2323,11 +2323,11 @@ button.btn.small, input[type="submit"].btn.small {
   border-radius: 4px;
 }
 .nav-tabs .dropdown-toggle .caret, .nav-pills .dropdown-toggle .caret {
-  border-top-color: #049cdb;
+  border-top-color: #49c7fc;
   margin-top: 6px;
 }
 .nav-tabs .dropdown-toggle:hover .caret, .nav-pills .dropdown-toggle:hover .caret {
-  border-top-color: #036690;
+  border-top-color: #04aef4;
 }
 .nav-tabs .active .dropdown-toggle .caret, .nav-pills .active .dropdown-toggle .caret {
   border-top-color: #333333;
@@ -3145,7 +3145,7 @@ button.btn.small, input[type="submit"].btn.small {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 a.thumbnail:hover {
-  border-color: #049cdb;
+  border-color: #49c7fc;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
@@ -3513,9 +3513,14 @@ a.thumbnail:hover {
   -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  color: #b32b21;
+  text-shadow: 1px 1px rgba(244, 200, 197, 0.5);
 }
 .paper-container a {
-  color: #CCC;
+  color: #333;
+}
+.paper-container h3 {
+  font-size: 32px;
 }
 body {
   background-color: #4cbfef;
@@ -3619,11 +3624,15 @@ h1, h2, h3 {
   padding: 20px;
 }
 #main-header h1 {
-  font-size: 48px;
+  font-size: 56px;
+  color: #b32b21;
+  text-shadow: 1px 1px rgba(244, 200, 197, 0.5);
 }
-#main-header h3 {
-  color: #f4c8c5;
+#main-header h2 {
+  color: #eca09a;
+  text-shadow: 0px 0px rgba(255, 255, 255, 0);
   font-weight: 200;
+  font-style: italic;
 }
 #main-content {
   margin-top: 40px;
