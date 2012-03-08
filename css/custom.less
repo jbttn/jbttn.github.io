@@ -1,103 +1,98 @@
 @import "lib/bootstrap.less";
 
-/* Japanese Zen Garden
-@baseColor:         #D8CAA8;
-@primaryColorOne:   #5C832F;
-@primaryColorTwo:   #284907;
-@secondaryColorOne: #382513;
-@secondaryColorTwo: #363942;
-*/
+@baseSpacing: 20px;
+@linkColor: @blue;
 
-@baseColor:          #000000;
-@mainColor:          #333333;
-@primaryColorOne:    #FF358B;
-@primaryColorTwo:    #01B0F0;
-@primaryColorThree:  #AEEE00;
+.centerize {
+  text-align: center;
+}
 
-@lightTextColor:     @white;
+.paper-container {
+  #gradient > .vertical(lighten(@red, 30), lighten(@red, 20));
+  .border-radius(2px);
+  .box-shadow(0px 1px 4px rgba(0,0,0,.4));
+  a {
+    color: #CCC;
+  }
+}
 
 body {
-  padding-top: 60px;
-  background-color: @blue;
-  background-image: url('/img/square_bg.png');
+  #gradient > .vertical(lighten(@blue, 30), @blue);
   color: @white;
+  font-size: 14px;
+  background-image: url('/img/clouds.png');
+  background-repeat: repeat-x;
+  background-position-y: bottom;
 }
 
-a {
-  color: @white;
+.container {
+  //#gradient > .vertical(lighten(@blue, 30), @blue);
+  #translucent > .background(@black, .30);
+  padding: 0 20px;
 }
 
-#main {
-  .border-radius();
-  .box-shadow();
-  //background-color: darken(@primaryColorThree, 10);
-  padding: 20px;
-  margin: 0 -20px;
-  //#gradient > .vertical(darken(@primaryColorThree, 5), @green);
-  #translucent.background(darken(@primaryColorTwo, 30), .3);
+p {
+  font-size: 14px;
 }
 
-#main-sidebar {
-  //float: left;
-  //width: 200px;
-  border-right: 1px dashed @lightTextColor;
-  margin-left: 19px;
+h1, h2, h3 {
+  color: white;
 }
 
-.main-sidebar-item {
-  border-top: 1px dashed @lightTextColor;
-  padding-bottom: 20px;
+div {
+  //border: 1px solid #000;
 }
 
-.image-links {
+#cloud {
+  margin: 0;
+  padding: 2px;
+  line-height: 3em;
+  text-align: center;
+  
   a {
-    margin-left: 20px;
+    padding: 0px;
+    
+    &.tag1 { font-size: 0.7em; font-weight: 100; }
+    &.tag2 { font-size: 0.8em; font-weight: 200; }
+    &.tag3 { font-size: 0.9em; font-weight: 300; }
+    &.tag4 { font-size: 1.0em; font-weight: 400; }
+    &.tag5 { font-size: 1.2em; font-weight: 500; }
+    &.tag6 { font-size: 1.4em; font-weight: 600; }
+    &.tag7 { font-size: 1.6em; font-weight: 700; }
+    &.tag8 { font-size: 1.8em; font-weight: 800; }
+    &.tag9 { font-size: 2.2em; font-weight: 900; }
+    &.tag10 { font-size: 2.5em; font-weight: 900; }
   }
-  a:hover {
-    text-decoration: none;
-  }
-}
-
-/* Overwrite bootstrap */
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  color: @lightTextColor;
-}
-
-li {
-  color: white;
-}
-
-a:hover {
-  color: @primaryColorThree;
-}
-
-.topbar a {
-  color: white;
-  &:hover {
-    color: @primaryColorThree !important;
+  li {
+    display: inline;
   }
 }
 
-.page-header {
-  border-bottom: 1px solid @lightTextColor;
+.box {
+  margin-bottom: @baseSpacing;
 }
 
-footer {
-  border-top: 1px solid @lightTextColor;
+#social-networks li {
+  display: inline;
 }
 
-.well {
-  //background-color: @primaryColorOne;
-  #translucent.background(@primaryColorTwo, .3);
-  //#gradient > .vertical(darken(@blue, 5), @blue);
+#main-header {
+  margin: -5px 0 10px;
+  padding: @baseSpacing;
+  //#translucent > .background(@white, .20);
 }
 
-.topbar-inner,
-.topbar .fill {
-  background-color: @primaryColorTwo;
-  #gradient > .vertical(darken(@primaryColorTwo, 30), darken(@blue, 30));
-  @shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  .box-shadow(@shadow);
+#main-content {
+  margin-top: 40px;
+  
+  h3 {
+    padding: 5px;
+    margin: 0px 0px 10px 20px;
+    //border: 1px solid #EEE;
+    //background: @linkColor;
+  }
+}
+
+#main-footer {
+  padding: @baseSpacing;
 }
