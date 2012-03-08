@@ -4,17 +4,18 @@ title: Joshua Button
 ---
 
 <div class="row">
-  <div class="span6">
-    <h2 class="centerize">This is a work in progress</h2>
+  <div id="left" class="span6">
+    <h3 class="centerize paper-container">Hello, my name is Joshua...</h3>
     <p>
       <div id="gravatar" src="http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=160"></div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut posuere dolor. Cras id augue at diam euismod posuere nec commodo sapien. Nullam eu mi nisl. Maecenas lobortis sem in est pretium eget porta nulla faucibus. Suspendisse imperdiet eros nec nibh eleifend condimentum. Nulla ullamcorper, odio sit amet consequat aliquet, elit risus malesuada mauris, eu vulputate lorem augue in augue. Curabitur adipiscing, ligula nec consectetur feugiat, sem odio consequat massa, sed rutrum dui felis non ipsum.
+      That's me, to the left, I am currently a senior at CSU Chico working on a <a href="http://en.wikipedia.org/wiki/Bachelor_of_Computer_Information_Systems">Bachelor of Computer Information Systems</a>.
+      I'm a perfectionist to the core and take pride in my code.  I feel that programming is a form of art and code can be quite pleasing to look at, especially with languages such as <a href="http://www.ruby-lang.org/en/">Ruby</a>.
+      I strive not only to write quality code, but also to build exceptional applications.  Look to the right to see what I've been working on.
     </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut posuere dolor. Cras id augue at diam euismod posuere nec commodo sapien. Nullam eu mi nisl. Maecenas lobortis sem in est pretium eget porta nulla faucibus. Suspendisse imperdiet eros nec nibh eleifend condimentum. Nulla ullamcorper, odio sit amet consequat aliquet, elit risus malesuada mauris, eu vulputate lorem augue in augue. Curabitur adipiscing, ligula nec consectetur feugiat, sem odio consequat massa, sed rutrum dui felis non ipsum.
-    </p>
+    <h3 class="centerize paper-container">My Recent Tweets</h3>
+    {% include _twitter.html %}
   </div>
-  <div class="span6">
+  <div id="right" class="span6">
     
     <div class="row box">
       <h3 class="centerize paper-container">Experience</h3>
@@ -26,16 +27,16 @@ title: Joshua Button
     <div class="row box">
       <h3 class="centerize paper-container">Projects</h3>
       <div class="span3">
-        <h6>465 / 598 Project</h6>
+        <h5>465 / 598 Project</h5>
         Ka-pow
       </div>
       <div class="span3">
-        <h6>Some other project</h6>
+        <h4>Some other project</h4>
         Woo
       </div>
     </div>
     <div class="row box">
-      <h3 class="centerize paper-container">Social Networks</h3>
+      <h3 class="centerize paper-container">Connect With Me</h3>
       <div class="span3">
         <ul id="social-networks" class="unstyled">
           <li><a href="http://github.com/jbttn"><img src="img/github.png" /></a></li>
@@ -44,7 +45,7 @@ title: Joshua Button
         </ul>
       </div>
       <div class="span3">
-        {% include _twitter.html %}
+        email@address.com
       </div>
     </div>
   </div>

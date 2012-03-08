@@ -3522,6 +3522,12 @@ a.thumbnail:hover {
 .paper-container h3 {
   font-size: 32px;
 }
+.twtr-widget {
+  margin: 20px 0;
+}
+html, body {
+  min-height: 100%;
+}
 body {
   background-color: #4cbfef;
   background-image: -moz-linear-gradient(top, #7bd7fd, #049cdb);
@@ -3544,6 +3550,7 @@ body {
   padding: 0 20px;
   border-left: 1px dashed #FFF;
   border-right: 1px dashed #FFF;
+  min-height: 100%;
 }
 p {
   font-family: adelle, "Helvetica Neue", sans-serif;
@@ -3661,9 +3668,13 @@ img {
 #main-content {
   margin-top: 40px;
 }
-#main-content h3 {
+#main-content #right h3 {
   padding: 5px;
   margin: 0px 0px 10px 20px;
+}
+#main-content #left h3 {
+  padding: 5px;
+  margin-bottom: 20px;
 }
 #main-footer {
   padding: 20px;

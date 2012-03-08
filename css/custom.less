@@ -26,6 +26,14 @@
   }
 }
 
+.twtr-widget {
+  margin: @baseSpacing 0;
+}
+
+html, body {
+  min-height: 100%;
+}
+
 body {
   #gradient > .vertical(lighten(@blue, 30), @blue);
   color: @white;
@@ -42,6 +50,7 @@ body {
   padding: 0 20px;
   border-left: 1px dashed #FFF;
   border-right: 1px dashed #FFF;
+  min-height: 100%;
 }
 
 p {
@@ -138,14 +147,20 @@ img {
 #main-content {
   margin-top: 40px;
   
-  h3 {
+  #right h3 {
     padding: 5px;
     margin: 0px 0px 10px 20px;
-    //border: 1px solid #EEE;
-    //background: @linkColor;
+  }
+  #left h3 {
+    padding: 5px;
+    margin-bottom: 20px;
   }
 }
 
 #main-footer {
   padding: @baseSpacing;
+  //bottom: 0;
+  //left: 0;
+  //right: 0;
+  //position: absolute;
 }
