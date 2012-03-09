@@ -18,6 +18,8 @@
   color: lighten(@red, 5);
   text-shadow: 1px 1px rgba(244, 200, 197, 0.50);
   
+  font-family: @nimbus;
+  
   a {
     color: #333;
   }
@@ -37,7 +39,8 @@ html, body {
 body {
   #gradient > .vertical(lighten(@blue, 30), @blue);
   color: @white;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 22px;
   background-image: url('/img/clouds.png');
   background-repeat: repeat-x;
   background-position-y: bottom;
@@ -125,7 +128,7 @@ img {
 #main-header {
   margin: -5px 0 10px;
   padding: @baseSpacing;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   //#translucent > .background(@white, .20);
   
   ul {
@@ -167,7 +170,7 @@ img {
 }
 
 #main-footer {
-  padding: @baseSpacing;
+  padding: 10px;
   //bottom: 0;
   //left: 0;
   //right: 0;

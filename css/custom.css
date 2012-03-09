@@ -3515,6 +3515,7 @@ a.thumbnail:hover {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
   color: #b32b21;
   text-shadow: 1px 1px rgba(244, 200, 197, 0.5);
+  font-family: "nimbus-sans", "Helvetica Neue", sans-serif;
 }
 .paper-container a {
   color: #333;
@@ -3539,7 +3540,8 @@ body {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7bd7fd', endColorstr='#049cdb', GradientType=0);
   color: #ffffff;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 22px;
   background-image: url('/img/clouds.png');
   background-repeat: repeat-x;
   background-position-y: bottom;
@@ -3648,7 +3650,7 @@ img {
 #main-header {
   margin: -5px 0 10px;
   padding: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 #main-header ul {
   margin-top: 10px;
@@ -3685,5 +3687,5 @@ img {
   margin-bottom: 20px;
 }
 #main-footer {
-  padding: 20px;
+  padding: 10px;
 }
