@@ -6,14 +6,18 @@ body {
   font-family: adelle, "Helvetica Neue", sans-serif;
 }
 
-h1 {
-  font-size: 64px;
+p {
+  margin-bottom: 10px;
 }
-h2 {
+
+h1 {
   font-size: 48px;
 }
+h2 {
+  font-size: 36px;
+}
 h3 {
-  font-size: 32px;
+  font-size: 28px;
 }
 h4 {
   font-size: 24px;
@@ -25,13 +29,30 @@ h6 {
   font-size: 14px;
 }
 
-header {
-  text-align: right;
+.light {
+  color: #ccc;
+}
+.indent1 {
+  margin-left: 20px;
+}
+.indent2 {
+  margin-left: 40px;
 }
 
-header hgroup {
-  border-bottom: 1px solid #CCC;
+.vcard {
+  text-align: right;
+  margin-bottom: 150px;
+}
+
+.vcard hgroup {
+  /*border-bottom: 1px solid #CCC;*/
   margin-bottom: 10px;
+  float: right;
+}
+.vcard ul {
+  float: left;
+  text-align: left;
+  margin-top: 5px;
 }
 
 #container {
@@ -39,12 +60,19 @@ header hgroup {
   padding: 20px;
   width: 600px;
   background: #fff;
-  border: 1px solid #000;
+  border: 1px solid #AAA;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.area {
+  margin-bottom: 20px;
+}
+.area span {
+  float: right;
+  color: #CCC;
 }
 
 .title {
   margin-bottom: 10px;
   border-bottom: 1px solid #BBB;
 }
-
