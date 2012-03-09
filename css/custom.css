@@ -3545,6 +3545,7 @@ body {
   background-image: url('/img/clouds.png');
   background-repeat: repeat-x;
   background-position-y: bottom;
+  background-attachment: fixed;
   font-family: adelle, "Helvetica Neue", sans-serif;
 }
 .container {
