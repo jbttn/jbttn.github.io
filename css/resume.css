@@ -3,45 +3,56 @@ html {
 }
 
 body {
-  font-family: adelle, "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', adelle, "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  line-height: 1.3em;
 }
 
-p {
-  margin-bottom: 10px;
+li {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1em;
 }
 
 h1 {
-  font-size: 42px;
-}
-h2 {
   font-size: 32px;
 }
-h3 {
+h2 {
   font-size: 24px;
 }
-h4 {
+h3 {
   font-size: 20px;
 }
-h5 {
+h4 {
   font-size: 16px;
 }
-h6 {
+h5 {
   font-size: 14px;
+}
+h6 {
+  font-size: 12px;
 }
 
 .light {
-  color: #ccc;
+  color: #777;
+  font-weight: 300;
 }
 .indent1 {
   margin-left: 20px;
+  /*font-size: 14px;*/
+  font-weight: bold;
 }
 .indent2 {
   margin-left: 40px;
+  font-size: 12px;
 }
 
 .vcard {
   text-align: right;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 
 .vcard hgroup {
@@ -65,17 +76,20 @@ h6 {
 }
 
 .area {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
-.area span {
+.area .subtext {
   float: right;
-  color: #CCC;
+  color: #777;
+  font-weight: bold;
 }
 
 .title {
-  font-size: 24px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #BBB;
+  font-size: 16px;
+  margin-bottom: 5px;
+  /*border-bottom: 1px solid #888;*/
+  text-decoration: underline;
+  display: block;
 }
 
 .bullets {
