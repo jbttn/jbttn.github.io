@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', adelle, "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 12px;
   line-height: 1.3em;
 }
@@ -88,7 +88,8 @@ h6 {
   font-size: 16px;
   margin-bottom: 5px;
   /*border-bottom: 1px solid #888;*/
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  font-weight: 300;
   display: block;
 }
 
