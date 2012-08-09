@@ -1,0 +1,126 @@
+@import 'bootstrap/variables.less';
+@import 'bootstrap/mixins.less';
+@import 'bootstrap/reset.less';
+@import 'bootstrap/buttons.less';
+
+body {
+  font-family: "Helvetica Neue";
+  background: #FFF;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+blockquote {
+  
+  a {
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  
+  &:hover {
+    color: #CCC;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.h-list {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  
+  li {
+    margin-left: 0;
+    display: inline;
+  }
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  display: block;
+}
+.tagline {
+  font-size: 24px;
+  font-weight: 300;
+  color: #888;
+}
+
+#gravatar {
+  float: left;
+  margin-right: 10px;
+  background-image: url('/img/jbttn.jpg');
+  width: 140px;
+  height: 140px;
+  .box-shadow(0px 1px 4px rgba(0,0,0,.4));
+  &:hover {
+    background-image: url('http://www.gravatar.com/avatar/8edb1495667a6a78ccac104520d2f3af.png?size=140');
+  }
+}
+
+#container {
+  margin: 20px auto;
+  width: 960px;
+}
+
+#sidebar {
+  ul {
+    list-style-type: none;
+  }
+}
+
+#main-header {
+  .clearfix();
+  
+  margin-bottom: 20px;
+  
+  #main-nav {
+    float: right;
+    font-size: 24px;
+    font-weight: 300;
+    
+    li {
+      margin: 0 20px;
+    }
+  }
+}
+#main-body {
+  .clearfix();
+  
+  position: relative;
+  
+  #sidebar {
+    float: left;
+    border-right: 1px solid #CCC;
+    width: 200px;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  #content {
+    float: right;
+    width: 730px;
+    //padding: 10px;
+    
+    /*
+    background: #fff;
+    border: 1px solid #AAA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);*/
+  }
+}
+#main-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #CCC;
+}

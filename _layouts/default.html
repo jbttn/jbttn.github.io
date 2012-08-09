@@ -3,41 +3,40 @@
   <title>{% if page.title %}{{ page.title }}{% endif %}</title>
   <meta name="description" content="Joshua Button">
   <meta name="author" content="Joshua Button">
-  <link rel="stylesheet" href="/css/custom.css">
-  <script src="/js/libs/modernizr-2.0.6.min.js"></script>
+  <!--<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+  <link rel="stylesheet/less" type="text/css" href="/css/style.less">
+  <script src="/js/less.js" type="text/javascript"></script>
 </head>
-
 <body>
-<div class="container">
-  <header id="main-header" class="centerize paper-container">
-    <h1><a href="/">Joshua Scott Button</a></h1>
-    <h2>I write beautiful code</h2>
-    <!--
-    <ul>
-      <li><a class="btn nav-btn" href="/">Home</a></li>
-      <li>|</li>
-      <li><a class="btn nav-btn" href="/resume">Resume</a></li>
-      <li>|</li>
-      <li><a class="btn nav-btn" href="#">About</a></li>
-    </ul>
-    -->
-  </header>
-  
-  <section id="main-content">
-    {{ content }}
-  </section>
-  
-  <footer id="main-footer" class="centerize paper-container">
-    Powered by <a href="http://jekyllrb.com/">Jekyll</a> | Design by <a href="#">Myself</a>
-  </footer>
-</div>
+  <div id="container">
+    <header id="main-header">
+      <span class="title"><a href="/">Joshua Button</a></span>
+      <span class="tagline">Developer, Gamer, Promoter of Friendship</span>
+      <ul id="main-nav" class="h-list">
+        <li><a href="/resume/">Resume</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+      </ul>
+    </header>
+    <div id="main-body">
+      <section id="sidebar">
+        <ul>
+          <li><a href="http://www.github.com/jbttn">Github</a></li>
+          <li><a href="http://www.twitter.com/jbttn">Twitter</a></li>
+          <li><a href="http://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </section>
+      <section id="content">
+        {{content}}
+      </section>
+    </div>
+    <footer id="main-footer">
+      Proudly hosted on <a href="http://www.github.com">Github</a>.  Design by <a href="http://www.joshuabutton.com">myself</a>.
+    </footer>
+  </div>
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-  <script defer src="/js/script.js"></script>
-  
-  <script type="text/javascript" src="http://use.typekit.com/vmn4ngh.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   
   <script type="text/javascript">
 
