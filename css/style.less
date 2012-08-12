@@ -4,10 +4,29 @@
 @import 'bootstrap/buttons.less';
 
 body {
-  font-family: "Helvetica Neue";
+  font-family: "Open Sans", "Helvetica Neue";
   background: #FFF;
   font-size: 14px;
   font-weight: 300;
+  
+  /*background-image: url(/img/blue_triangles.png);
+  background-size: 400px;
+  background-position: 10px 200px;
+  background-repeat: no-repeat;*/
+}
+
+@triangle_size: 350px;
+#triangles {
+  width: @triangle_size;
+  height: @triangle_size;
+  position: absolute;
+  top: 300px;
+  left: -50px;
+  z-index: -1;
+  //margin-top: 100px;
+  background-image: url(/img/blue_triangles.png);
+  background-size: @triangle_size;
+  background-repeat: no-repeat;
 }
 
 blockquote {
@@ -49,11 +68,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 32px;
   font-weight: bold;
   display: block;
+  padding-left: 3px;
+  
+  a {
+    color: #7269b1;
+    text-shadow: 2px 2px 0px rgba(63, 169, 245, 1);
+    &:hover {
+      color: #7269b1;
+      text-shadow: 1px 1px 0px rgba(63, 169, 245, 1);
+    }
+  }
 }
 .tagline {
   font-size: 24px;
   font-weight: 300;
   color: #888;
+}
+
+#my-picture {
+  width: 40%;
+  height: 40%;
 }
 
 #gravatar {
