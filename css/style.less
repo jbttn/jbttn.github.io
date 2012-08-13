@@ -3,6 +3,12 @@
 @import 'bootstrap/reset.less';
 @import 'bootstrap/buttons.less';
 
+.clear-bg() {
+  background: rgba(239, 242, 247, 0.35);
+  margin: 10px 0;
+  padding: 10px;
+}
+
 body {
   font-family: "Open Sans", "Helvetica Neue";
   background: #FFF;
@@ -76,9 +82,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .toc {
+  .clear-bg();
+  
   font-size: 24px;
-  margin: 0;
-  padding: 30px;
+  //margin: 0;
+  //padding: 30px;
+  
+  li {
+    a {
+      margin-left: 20px;
+    }
+    &:hover {
+      background: #FFF;
+    }
+  }
 }
 
 .title {
@@ -185,4 +202,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 #events {
   
+}
+
+// Projects
+#projects {
+  
+}
+
+.project {
+  .clearfix();
+  .clear-bg();
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0);
+  }
+  img {
+    float: right;
+    width: 300px;
+  }
 }
