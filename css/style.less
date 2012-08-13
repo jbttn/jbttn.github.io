@@ -15,18 +15,25 @@ body {
   background-repeat: no-repeat;*/
 }
 
+#logo {
+  width: 75px;
+}
+
 @triangle_size: 350px;
 #triangles {
   width: @triangle_size;
   height: @triangle_size;
-  position: absolute;
-  top: 300px;
-  left: -50px;
+  position: fixed;
+  //top: 300px;
+  //left: -50px;
+  bottom: -50px;
+  left: 0;
   z-index: -1;
   //margin-top: 100px;
-  background-image: url(/img/blue_triangles.png);
+  background-image: url(/img/triangles.png);
   background-size: @triangle_size;
   background-repeat: no-repeat;
+  .opacity(50);
 }
 
 blockquote {
@@ -38,6 +45,10 @@ blockquote {
 
 p {
   margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
@@ -64,6 +75,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.toc {
+  font-size: 24px;
+  margin: 0;
+  padding: 30px;
+}
+
 .title {
   font-size: 32px;
   font-weight: bold;
@@ -82,12 +99,8 @@ h1, h2, h3, h4, h5, h6 {
 .tagline {
   font-size: 24px;
   font-weight: 300;
-  color: #888;
-}
-
-#my-picture {
-  width: 40%;
-  height: 40%;
+  margin-left: 6px;
+  //color: #888;
 }
 
 #gravatar {
@@ -108,9 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sidebar {
-  ul {
-    list-style-type: none;
-  }
+  
 }
 
 #main-header {
@@ -157,4 +168,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
   text-align: center;
   color: #CCC;
+}
+
+// About
+
+#about {
+  .clearfix();
+  
+  #my-picture {
+    float: right;
+    height: 300px;
+  }
+}
+#skills {
+  
+}
+#events {
+  
 }

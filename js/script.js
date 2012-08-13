@@ -1,2 +1,2 @@
-$('#triangles').plaxify({"xRange":80,"yRange":40})
-$.plax.enable()
+$('#triangles').plaxify({"xRange":180,"yRange":40})
+//$.plax.enable()
