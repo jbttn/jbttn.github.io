@@ -5,8 +5,20 @@
 
 .clear-bg() {
   background: rgba(239, 242, 247, 0.35);
-  margin: 10px 0;
+  margin-top: 0;
+  margin-bottom: 10px;
   padding: 10px;
+  
+  ul {
+    padding: 10px;
+    margin: 0;
+  }
+  li {
+    padding: 5px 0;
+    &:hover {
+      background: rgba(255, 255, 255, .85);
+    }
+  }
 }
 
 body {
@@ -62,7 +74,7 @@ a {
   text-decoration: none;
   
   &:hover {
-    color: #CCC;
+    color: #999;
   }
 }
 
@@ -91,9 +103,6 @@ h1, h2, h3, h4, h5, h6 {
   li {
     a {
       margin-left: 20px;
-    }
-    &:hover {
-      background: #FFF;
     }
   }
 }
@@ -137,10 +146,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 960px;
 }
 
-#sidebar {
-  
-}
-
 #main-header {
   .clearfix();
   
@@ -162,13 +167,20 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   
   #sidebar {
-    float: left;
-    border-right: 1px solid #CCC;
-    width: 200px;
+    .clear-bg();
     
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    float: left;
+    border-right: 0px solid rgba(247, 247, 247, 0.8);
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin-bottom: 10px;
+    }
+    img {
+      width: 48px;
+    }
   }
   #content {
     float: right;
@@ -193,8 +205,11 @@ h1, h2, h3, h4, h5, h6 {
   .clearfix();
   
   #my-picture {
+    .box-shadow(3px 3px 15px rgba(0,0,0,.50));
+    
     float: right;
     height: 300px;
+    margin-left: 20px;
   }
 }
 #skills {
