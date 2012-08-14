@@ -22,6 +22,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Open Sans", "Helvetica Neue";
   background: #FFF;
   font-size: 14px;
@@ -31,6 +32,15 @@ body {
   background-size: 400px;
   background-position: 10px 200px;
   background-repeat: no-repeat;*/
+}
+
+#announce {
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
 }
 
 #logo {
@@ -114,11 +124,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 3px;
   
   a {
-    color: #7269b1;
-    text-shadow: 2px 2px 0px rgba(63, 169, 245, 1);
+    color: rgba(63, 169, 245, 1);
+    text-shadow: 2px 2px 0px #7269b1;
     &:hover {
-      color: #7269b1;
-      text-shadow: 1px 1px 0px rgba(63, 169, 245, 1);
+      color: rgba(63, 169, 245, 1);
+      text-shadow: 1px 1px 0px #7269b1;
     }
   }
 }
@@ -228,9 +238,6 @@ h1, h2, h3, h4, h5, h6 {
   .clearfix();
   .clear-bg();
   
-  &:hover {
-    background: rgba(255, 255, 255, 0);
-  }
   img {
     float: right;
     width: 300px;
