@@ -21,6 +21,27 @@
   }
 }
 
+.clear-bg-ul() {
+  .clearfix();
+  
+  padding: 0;
+  
+  li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+    a {
+      display: block;
+      padding: 15px;
+      background: rgba(239, 242, 247, 0.35);
+      &:hover {
+        background: rgba(255, 255, 255, .85);
+      }
+    }
+  }
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue";
@@ -90,6 +111,14 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  font-weight: 300;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 20px;
 }
 
 .h-list {
@@ -223,7 +252,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #skills {
-  
+  ul {
+    .clear-bg-ul();
+  }
 }
 #events {
   
