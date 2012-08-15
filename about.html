@@ -3,7 +3,6 @@ layout: default
 title: About
 ---
 
-<!-- Want to have a TOC with links that scroll to the relevant portions of the page. -->
 <ul class="toc">
   <li><a href="#about">About</a></li>
   <li><a href="#skills">Skills</a></li>
@@ -19,33 +18,44 @@ title: About
 </section>
 <section id="skills">
   <h1>Skills</h1>
-  <!--
-  <h2>Languages</h2>
-  <ul>
-    <li><a href="#">Ruby</a></li>
+  <ul id="key">
+    <li><a href="#" class="proficient">Proficient</a></li>
+    <li><a href="#" class="intermediate">Intermediate</a></li>
+    <li><a href="#" class="beginner">Beginner</a></li>
   </ul>
-  <h2>Tech</h2>-->
-  <ul>
-    <li><a href="http://www.rubyonrails.org" class="tag10">Ruby on Rails</a></li>
-    <li><a href="http://macromates.com" class="tag4">TextMate</a></li>
-    <li><a href="http://www.nodejs.org" class="tag7">NodeJS</a></li>
-    <li><a href="http://documentcloud.github.com/backbone/" class="tag3">Backbone.js</a></li>
-    <li><a href="https://developer.apple.com/library/mac/#documentation/cocoa/conceptual/objectivec/Introduction/introObjectiveC.html" class="tag10">Objective-C</a></li>
-    <li><a href="http://www.adobe.com/products/photoshop.html" class="tag4">Photoshop</a></li>
-    <li><a href="http://www.w3.org/html/logo/" class="tag7">HTML5</a></li>
-    <li><a href="http://www.w3.org/TR/CSS/#css3" class="tag5">CSS3</a></li>
-    <li><a href="https://developer.apple.com/devcenter/ios/index.action" class="tag9">iOS</a></li>
-    <li><a href="https://developer.mozilla.org/en/JavaScript" class="tag7">JavaScript</a></li>
-    <li><a href="http://coffeescript.org/" class="tag9">CoffeeScript</a></li>
-    <li><a href="http://www.lua.org/" class="tag4">LUA</a></li>
+  <h2>Languages</h2>
+  <ul id="languages">
+    <li><a href="http://en.wikipedia.org/wiki/C_(programming_language)" class="proficient">C</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/C++" class="intermediate">C++</a></li>
+    <li><a href="http://www.w3.org/TR/CSS/#css3" class="proficient">CSS3</a></li>
+    <li><a href="http://www.w3.org/html/logo/" class="proficient">HTML5</a></li>
+    <li><a href="http://coffeescript.org/" class="proficient">CoffeeScript</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Java_(programming_language)" class="intermediate">Java</a></li>
+    <li><a href="https://developer.mozilla.org/en/JavaScript" class="proficient">JavaScript</a></li>
+    <li><a href="http://www.lua.org/" class="intermediate">LUA</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Objective-C" class="proficient">Objective-C</a></li>
+    <li><a href="http://www.php.net/" class="proficient">PHP</a></li>
+    <li><a href="http://www.ruby-lang.org/" class="proficient">Ruby</a></li>
+  </ul>
+  <h2>Software and Tools</h2>
+  <ul id="software">
+    <li><a href="http://httpd.apache.org/" class="intermediate">Apache</a></li>
+    <li><a href="http://www.eclipse.org/" class="intermediate">Eclipse</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Gerrit_(software)" class="intermediate">Gerrit</a></li>
+    <li><a href="http://www.adobe.com/products/photoshop.html" class="intermediate">Photoshop</a></li>
+    <li><a href="http://macromates.com" class="intermediate">TextMate</a></li>
+  </ul>
+  <h2>Technologies, Concepts, and Frameworks</h2>
+  <ul id="technologies">
+    <li><a href="http://documentcloud.github.com/backbone/" class="beginner">Backbone.js</a></li>
+    <li><a href="https://developer.apple.com/devcenter/ios/index.action" class="proficient">iOS</a></li>
+    <li><a href="http://www.nodejs.org" class="intermediate">NodeJS</a></li>
+    <li><a href="http://www.rubyonrails.org" class="proficient">Ruby on Rails</a></li>
   </ul>
 </section>
 <section id="coursework">
   <h1>Coursework</h1>
-  <h2>Fall 2012</h2>
-  <ul>
-    <li></li>
-  </ul>
+  {% include _coursework.html %}
 </section>
 <section id="events">
   <h1>Events</h1>
