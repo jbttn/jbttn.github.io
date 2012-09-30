@@ -18,5 +18,5 @@ $.getJSON('/skills.json', function(data) {
 });*/
 
 
-$('.project a').colorbox({rel: 'nofollow', maxWidth: '90%', maxHeight: '90%'});
+$('.project a.img').colorbox({rel: 'nofollow', maxWidth: '90%', maxHeight: '90%'});
 $('#resume-link').colorbox({inline: true, width: '50%'});
