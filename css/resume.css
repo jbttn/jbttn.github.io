@@ -37,7 +37,7 @@ h6 {
 }
 
 .light {
-  color: #777;
+  color: #000;
   font-weight: 300;
 }
 .indent1 {
@@ -81,16 +81,15 @@ h6 {
 }
 .area .subtext {
   float: right;
-  color: #777;
-  font-weight: bold;
+  color: #000;
+  font-weight: 600;
 }
 
 .title {
   font-size: 16px;
   margin-bottom: 5px;
-  /*border-bottom: 1px solid #888;*/
-  /*text-decoration: underline;*/
-  font-weight: 300;
+  border-bottom: 1px solid #000;
+  font-weight: 600;
   display: block;
 }
 
