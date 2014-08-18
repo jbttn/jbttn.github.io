@@ -1,0 +1,32 @@
+---
+layout: default
+title: About
+---
+
+<section class="row">
+  <div class="col-xs-4">
+    <img class="img-responsive img-thumbnail" src="/assets/img/jbttn_big.jpg" />
+  </div>
+  <div class="col-xs-8">
+    <h1 class="title">About</h1>
+    <p>
+      {% include about.html %}
+    </p>
+  </div>
+</section>
+<section class="row">
+  <div class="col-xs-12">
+    <h1 class="title">Stuff I Like</h1>
+    <ul id="interests" class="list-inline">
+      {% for interest in site.data.interests %}
+      <li><span class="label label-primary"><a href="{{ interest.url }}">{{ interest.name }}</a></span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<section>
+  <h1 class="title">Events I've Been To</h1>
+  <ul>
+    <li><a href="http://www.nodeconf.com/">Nodeconf 2012</a></li>
+  </ul>
+</section>

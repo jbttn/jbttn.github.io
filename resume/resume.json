@@ -1,0 +1,94 @@
+{
+    "basics": {
+        "name": "Joshua Button",
+        "label": "Software Developer",
+        "email": "jbttn@joshuabutton.com",
+        "phone": "(530) 321-0483",
+        "website": "http://www.joshuabutton.com",
+        "summary": "Developer",
+        "location": {
+            "address": "101 Ahwahnee Commons Apt. 38",
+            "postalCode": "95928",
+            "city": "Chico",
+            "countryCode": "US",
+            "region": "CA"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "jbttn",
+                "url": "http://www.github.com/jbttn"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Wanderful Media",
+            "position": "iOS Developer",
+            "website": "http://wanderful.com",
+            "startDate": "2013-07-25",
+            "summary": "",
+            "highlights": [
+
+            ]
+        },
+        {
+            "company": "Intel",
+            "position": "Intern Software Developer",
+            "website": "http://intel.com",
+            "startDate": "2012-05-15",
+            "endDate": "2012-08-15",
+            "summary": "Part of the Intel Collaborators internship program.",
+            "highlights": [
+                "Researched, architected, and developed a video streaming solution utilizing UDP Sockets and Node.js",
+                "Installed, configured, and deployed three HP ProLiant DL360 servers for git source code control",
+                "Customized Android application used in an embedded system solution",
+                "Agile development on an international team"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "California State University, Chico",
+            "area": "Computer Information Systems",
+            "studyType": "Bachelor of Science",
+            "endDate": "2014-05-31",
+            "gpa": "3.25",
+            "courses": [
+                "Upsilon Pi Epsilon, Alpha Chapter",
+                "Mobile Device Programming Teaching Assistant",
+                "Web Development Teaching Assistant"
+            ]
+        },
+        {
+            "institution": "American River College",
+            "area": "Computer Programming",
+            "studyType": "Associate of Science",
+            "endDate": "2010-05-31",
+            "gpa": "3.5"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Mobile Development",
+            "level": "Advanced",
+            "keywords": [
+                "AFNetworking", "Cocoapods", "Crashlytics", "Grand Central Dispatch", "Jenkins", "POP", "Testflight", "Xcode"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "level": "Moderate",
+            "keywords": [
+                "CoffeeScript", "CSS3", "HTML5", "JavaScript", "JSON", "jQuery", "LESS", "NodeJS", "Photoshop", "Ruby on Rails", "SASS"
+            ]
+        },
+        {
+            "name": "Revision Control",
+            "level": "Moderate",
+            "keywords": [
+                "Git", "Github"
+            ]
+        }
+    ]
+}

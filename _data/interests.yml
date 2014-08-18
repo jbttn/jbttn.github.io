@@ -1,0 +1,26 @@
+- name: C
+  url: http://en.wikipedia.org/wiki/C_(programming_language)
+
+- name: Objective-C
+  url: http://en.wikipedia.org/wiki/Objective-C
+
+- name: Ruby
+  url: http://www.ruby-lang.org/
+
+- name: Photoshop
+  url: http://www.adobe.com/products/photoshop.html
+
+- name: Atom
+  url: https://atom.io/
+
+- name: iOS
+  url: https://developer.apple.com/devcenter/ios/index.action
+
+- name: NodeJS
+  url: http://www.nodejs.org/
+
+- name: Ruby on Rails
+  url: http://www.rubyonrails.org/
+
+- name: Puns
+  url: http://en.wikipedia.org/wiki/Pun

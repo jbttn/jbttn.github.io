@@ -3,5 +3,15 @@ layout: default
 title: Joshua Button
 ---
 
-<h1>Hello...</h1>
-<blockquote>My name is Joshua and I'm a <strong>developer</strong> (if my fancy tagline didn't give that away already).  I am currently a senior at CSU Chico working on a <a href="http://en.wikipedia.org/wiki/Bachelor_of_Computer_Information_Systems">Bachelor of Computer Information Systems</a>. I'm a perfectionist to the core and take pride in my code. I feel that programming is a form of art and code can be quite pleasing to look at, especially with languages such as <a href="http://www.ruby-lang.org/en/">Ruby</a>. I strive not only to write quality code, but also to build exceptional applications.  If that sounds <strong>nifty</strong> to you then please, take a look at my resume and project listings.</blockquote>
+<section id="blog">
+  {% for post in site.posts %}
+  <div class="row">
+    <div class="col-xs-8">
+      <a href="{{ post.url }}"><i class="fa fa-angle-double-right"></i> {{ post.title }}</a>
+    </div>
+    <div class="col-xs-4 blog-date">
+      <span>{{ post.date | date: "%B %d, %Y" }}</span>
+    </div>
+  </div>
+  {% endfor %}
+</section>

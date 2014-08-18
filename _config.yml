@@ -1,1 +1,11 @@
-permalink: pretty
+markdown: redcarpet
+highlighter: pygments
+
+permalink: /:categories/:title/
+exclude: [LICENSE, CNAME, README.md, .gitignore, bower.json, package.json]
+
+gems:
+  - jemoji
+
+sass:
+    style: :compressed

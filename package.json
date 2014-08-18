@@ -1,0 +1,16 @@
+{
+    "name": "joshuabutton.com",
+    "version": "2.0.0",
+    "dependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-copy": "*",
+        "grunt-exec": "*",
+        "bower": "*",
+        "handlebars": "^2.0.0-alpha.4",
+        "underscore": "^1.6.0",
+        "moment": "^2.8.1"
+    },
+    "engines": {
+        "npm": "1.2.x"
+    }
+}

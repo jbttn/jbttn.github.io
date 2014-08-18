@@ -1,0 +1,61 @@
+body {
+	font: 14px "proxima-nova", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 748px !important;
+}
+
+.block {
+	padding-top: 15px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.date {
+	text-align: right;
+}
+
+.header {
+	margin-bottom: 10px;
+}
+
+.subtext {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.tags {
+	margin-left: 0;
+}
+.tags li {
+	background-color: #428BCA;
+	color: #fff;
+	padding: 4px;
+	margin-bottom: 2px;
+	border: 1px dotted #000;
+}
+
+#header {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+#name {
+	border-right: 1px solid #000;
+}
+#name h2 {
+	font-weight: 300;
+}
+#contact {
+	margin-top: 2px;
+	line-height: 1.2em;
+	color: #000;
+	font-weight: 300;
+}

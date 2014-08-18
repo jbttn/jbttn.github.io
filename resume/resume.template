@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+
+	<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+
+	<script type="text/javascript" src="//use.typekit.net/poh6wat.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<style>
+		{{{css}}}
+	</style>
+</head>
+<body>
+	<div class="container" id="resume">
+		{{#resume.basics}}
+		<header id="header" class="row">
+			<div id="name" class="col-xs-8">
+				<h1>{{name}}</h1>
+				<h2>{{label}}</h2>
+			</div>
+			<div id="contact" class="col-xs-4">
+				<ul class="list-unstyled">
+					{{#if website}}<li><a href="{{website}}">{{website}}</a></li>{{/if}}
+					{{#if email}}<li>{{email}}</li>{{/if}}
+					{{#if phone}}<li>{{phone}}</li>{{/if}}
+					<li>Permanent right to work in U.S.A</li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- <section id="basics" class="row block">
+			<div class="col-xs-3 title">About</div>
+			<div class="col-xs-9">
+				{{#if summary}}<p>{{summary}}</p>{{/if}}
+			</div>
+		</section> -->
+		{{/resume.basics}}
+
+		{{#if resume.work.length}}
+		<section id="experience" class="row block">
+			<div class="col-xs-3 title">Experience</div>
+			<div class="col-xs-9">
+				{{#each resume.work}}
+				<div class="item">
+					<header class="row header">
+						<div class="col-xs-7">
+							{{#if company}}<h3 class="name">{{company}}</h3>{{/if}}
+							{{#if position}}<div class="subtext">{{position}}</div>{{/if}}
+						</div>
+						<div class="col-xs-5 date">
+							{{#if startDate}}<span class="startDate">{{startDate}} - </span>{{/if}}
+							{{#if endDate}}<span class="endDate">{{endDate}}</span>{{/if}}
+						</div>
+					</header>
+					{{#if summary}}<div class="summary"><p>{{summary}}</p></div>{{/if}}
+					{{#if highlights.length}}
+					<ul>
+						{{#each highlights}}
+						<li>{{.}}</li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</div>
+				{{/each}}
+			</div>
+		</section>
+		{{/if}}
+
+		{{#if resume.education.length}}
+		<section id="education" class="row block">
+			<div class="col-xs-3 title">Education</div>
+			<div class="col-xs-9">
+				{{#each resume.education}}
+				<div class="item">
+					<header class="row header">
+						<div class="col-xs-9">
+							{{#if institution}}<h3 class="name">{{institution}}</h3>{{/if}}
+							<div class="subtext">{{#if studyType}}{{studyType}}{{/if}}{{#if area}} - {{area}}{{/if}}{{#if gpa}}<br />{{gpa}} GPA{{/if}}</div>
+						</div>
+						<div class="col-xs-3 date">
+							{{#if startDate}}<span class="startDate">{{startDate}} - </span>{{/if}}
+							{{#if endDate}}<span class="endDate">{{endDate}}</span>{{/if}}
+						</div>
+					</header>
+					{{#if courses.length}}
+					<h4>Activities</h4>
+					<ul>
+						{{#each courses}}
+						<li>{{.}}</li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</div>
+				{{/each}}
+			</div>
+		</section>
+		{{/if}}
+
+		{{#if resume.skills.length}}
+		<section id="skills" class="row block">
+			<div class="col-xs-3 title">Skills</div>
+			<div class="col-xs-9">
+				{{#each resume.skills}}
+				<div class="item">
+					<header class="row header">
+						<div class="col-xs-7">
+							{{#if name}}<h3 class="name">{{name}}</h3>{{/if}}
+						</div>
+						<div class="col-xs-5 date">
+							{{#if level}}<h4><em>{{level}}</em></h4>{{/if}}
+						</div>
+					</header>
+					{{#if keywords.length}}
+					<ul class="list-inline tags">
+						{{#each keywords}}
+						<li>{{.}}</li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</div>
+				{{/each}}
+			</div>
+		</section>
+		{{/if}}
+
+	</div>
+
+</body>
+</html>
