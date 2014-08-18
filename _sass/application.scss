@@ -1,8 +1,5 @@
----
-# These are needed for jekyll to load this file
----
-@import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss';
 @import 'bootstrap_override';
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss';
 @import 'vars';
 @import 'pygments';
 
@@ -69,11 +66,9 @@ blockquote {
 }
 
 a, b {
-  color: $link-color;
   transition: color 0.25s ease-in 0s;
 
   &:hover {
-    color: $link-hover-color;
     text-decoration: none;
   }
 }

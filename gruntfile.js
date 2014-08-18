@@ -8,6 +8,16 @@ grunt.initConfig({
       ]
     }
   },
+  sass: {
+    dist: {
+      options: {
+        style: 'compressed'
+      },
+      files: [
+        {expand: true, cwd: '_sass/', src: 'application.scss', dest: 'assets/css/', ext: '.css'}
+      ]
+    }
+  },
   exec: {
     build: {
       cmd: 'jekyll build'
@@ -34,7 +44,8 @@ grunt.initConfig({
 
 grunt.loadNpmTasks('grunt-contrib-copy');
 grunt.loadNpmTasks('grunt-exec');
+grunt.loadNpmTasks('grunt-contrib-sass');
 
-grunt.registerTask('default', [ 'copy', 'exec:build_resume', 'exec:build' ]);
+grunt.registerTask('default', [ 'copy', 'sass', 'exec:build_resume', 'exec:build' ]);
 grunt.registerTask('setup', ['exec:update_npm', 'exec:update_bower']);
 };

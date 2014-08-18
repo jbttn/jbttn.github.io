@@ -5,6 +5,7 @@
         "grunt": "~0.4.5",
         "grunt-contrib-copy": "*",
         "grunt-exec": "*",
+        "grunt-contrib-sass": "*",
         "bower": "*",
         "handlebars": "^2.0.0-alpha.4",
         "underscore": "^1.6.0",
