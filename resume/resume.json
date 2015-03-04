@@ -27,9 +27,13 @@
             "position": "iOS Developer",
             "website": "http://wanderful.com",
             "startDate": "2013-07-25",
-            "summary": "",
+            "summary": "Contributed to the development of two apps from scratch (Find&Save and Find&Save Storefront).  Contributed to the support of an app received through an acquisition (Coffeetable).  Started as an internship and evolved into a lead development role.",
             "highlights": [
-
+                "Architected a high level network request library built on top of AFNetworking and NSURLSession in order to easily interact with a complex JSON API",
+                "Developed a server driven, widget based interface which allowed for easier customization of shipped applications without requiring a new application deploy",
+                "Utilized collection views to build complex layouts to browse content and product information in a fun way",
+                "Modularized internal reusable code by using private Cocoapods",
+                "Maintained universal applications across several legacy versions of iOS"
             ]
         },
         {
@@ -38,11 +42,11 @@
             "website": "http://intel.com",
             "startDate": "2012-05-15",
             "endDate": "2012-08-15",
-            "summary": "Part of the Intel Collaborators internship program.",
+            "summary": "Contributed to the Micro Digital Signage project as part of the Intel Collaborators internship program.",
             "highlights": [
                 "Researched, architected, and developed a video streaming solution utilizing UDP Sockets and Node.js",
                 "Installed, configured, and deployed three HP ProLiant DL360 servers for git source code control",
-                "Customized Android application used in an embedded system solution",
+                "Customized an Android application used in an embedded system solution",
                 "Agile development on an international team"
             ]
         }
@@ -73,7 +77,7 @@
             "name": "Mobile Development",
             "level": "Advanced",
             "keywords": [
-                "AFNetworking", "Cocoapods", "Crashlytics", "Grand Central Dispatch", "Jenkins", "POP", "Testflight", "Xcode"
+                "AFNetworking", "Cocoapods", "Crashlytics", "Fabric", "Grand Central Dispatch", "POP", "Testflight", "Xcode"
             ]
         },
         {
@@ -84,10 +88,10 @@
             ]
         },
         {
-            "name": "Revision Control",
-            "level": "Moderate",
+            "name": "APIs, SDKs & Tools",
+            "level": "Advanced",
             "keywords": [
-                "Git", "Github"
+                "Amazon Web Services SDK", "Chromecast SDK", "Dropbox API", "Facebook SDK", "Git", "Github", "Google Drive SDK", "Jenkins", "Pivotal Tracker"
             ]
         }
     ]
