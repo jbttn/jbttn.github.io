@@ -27,6 +27,8 @@ title: About
 <section>
   <h1 class="title">Events I've Been To</h1>
   <ul>
-    <li><a href="http://www.nodeconf.com/">Nodeconf 2012</a></li>
+    {% for event in site.data.events %}
+    <li><a href="{{ event.url }}">{{ event.name }}</a></li>
+    {% endfor %}
   </ul>
 </section>
