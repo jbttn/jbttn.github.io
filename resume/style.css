@@ -1,3 +1,9 @@
+@media print {
+	#contact a[href]:after {
+		content: none !important;
+	}
+}
+
 body {
 	font: 14px "proxima-nova", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
