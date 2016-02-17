@@ -7,9 +7,9 @@
         "website": "http://www.joshuabutton.com",
         "summary": "Developer",
         "location": {
-            "address": "101 Ahwahnee Commons Apt. 38",
-            "postalCode": "95928",
-            "city": "Chico",
+            "address": "1130 Whitney Ranch Parkway Apt. 634",
+            "postalCode": "95765",
+            "city": "Rocklin",
             "countryCode": "US",
             "region": "CA"
         },
@@ -23,10 +23,24 @@
     },
     "work": [
         {
+            "company": "Old Republic Title Company",
+            "position": "Mobile Applications Developer",
+            "website": "http://ortc.com",
+            "startDate": "2015-07-20",
+            "summary": "Android development as well as some iOS development in Swift / Objective-C.  Projects focused on enhancing the title and escrow process for agents on the go (OR Connect, Rate CalculatOR) as well as internal applications meant to manage aspects of the enterprise (OR Dashboard, OR Events).",
+            "highlights": [
+                "Built OR Events for Android, an app for internal company events similar to the official WWDC and Google I/O apps from Apple and Google",
+                "Maintained and added new features to the Android version of OR Connect, the mobile interface to Old Republic's title and escrow services",
+                "Increased compatibility across Android devices from Gingerbread to Marshmallow",
+                "Assisted with the development of OR Connect and OR Events for iOS when necessary"
+            ]
+        },
+        {
             "company": "Wanderful Media",
             "position": "iOS Developer",
             "website": "http://wanderful.com",
             "startDate": "2013-07-25",
+            "endDate": "2015-07-17",
             "summary": "Contributed to the development of two apps from scratch (Find&Save and Find&Save Storefront).  Contributed to the support of an app received through an acquisition (Coffeetable).  Started as an internship and evolved into a lead development role.",
             "highlights": [
                 "Architected a high level network request library built on top of AFNetworking and NSURLSession in order to easily interact with a complex JSON API",
@@ -77,21 +91,21 @@
             "name": "Mobile Development",
             "level": "Advanced",
             "keywords": [
-                "AFNetworking", "Cocoapods", "Crashlytics", "Fabric", "Grand Central Dispatch", "POP", "Testflight", "Xcode"
+                "AFNetworking", "Android Studio", "Cocoapods", "Crashlytics", "Fabric", "Gradle", "Grand Central Dispatch", "Java", "Objective-C", "POP", "Swift", "Testflight", "Xcode"
             ]
         },
         {
             "name": "Web Development",
             "level": "Moderate",
             "keywords": [
-                "CoffeeScript", "CSS3", "HTML5", "JavaScript", "JSON", "jQuery", "LESS", "NodeJS", "Photoshop", "Ruby on Rails", "SASS"
+                "CoffeeScript", "CSS3", "HTML5", "JavaScript", "JSON", "jQuery", "LESS", "NodeJS", "Photoshop", "Ruby on Rails", "SASS", "XML"
             ]
         },
         {
             "name": "APIs, SDKs & Tools",
             "level": "Advanced",
             "keywords": [
-                "Amazon Web Services SDK", "Chromecast SDK", "Dropbox API", "Facebook SDK", "Git", "Github", "Google Drive SDK", "Jenkins", "Pivotal Tracker"
+                "Amazon Web Services SDK", "Chromecast SDK", "Dropbox API", "Facebook SDK", "Git", "Github", "Google Drive SDK", "Jenkins", "Pivotal Tracker", "SVN"
             ]
         }
     ]
