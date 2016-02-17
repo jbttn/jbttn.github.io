@@ -1,6 +1,6 @@
 {
     "name": "joshuabutton.com",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "dependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-copy": "*",
