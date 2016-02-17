@@ -1,0 +1,9 @@
+{
+  "name": "jsonresume-theme-joshuabutton",
+  "version": "0.0.1",
+  "description": "Joshua Button's theme",
+  "author": "Joshua Button",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  }
+}
