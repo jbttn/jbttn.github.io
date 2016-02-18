@@ -23,7 +23,7 @@ grunt.initConfig({
       cmd: 'jekyll build'
     },
     serve: {
-      cmd: 'jekyll serve --watch'
+      cmd: 'jekyll serve --watch --host 0.0.0.0'
     },
     serve_resume: {
       cwd: 'resume',
