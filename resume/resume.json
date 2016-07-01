@@ -91,7 +91,7 @@
             "name": "Mobile Development",
             "level": "Advanced",
             "keywords": [
-                "AFNetworking", "Android Studio", "Cocoapods", "Crashlytics", "Fabric", "Gradle", "Grand Central Dispatch", "Java", "Objective-C", "POP", "Swift", "Testflight", "Xcode"
+                "AFNetworking", "Android", "Android Studio", "Cocoapods", "Crashlytics", "Fabric", "Gradle", "Grand Central Dispatch", "iOS", "Java", "Model-View-Controller", "Objective-C", "Stroyboards", "Swift", "Testflight", "Xcode"
             ]
         },
         {
