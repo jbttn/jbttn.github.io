@@ -4,14 +4,20 @@ title: Joshua Button
 ---
 
 <section id="blog">
-  {% for post in site.posts %}
+  <section class="row">
+    <h1>Hello, I'm Joshua.</h1>
+    <p>
+      I'm a software engineer living in Sacramento.  I work on the mobile team at <a href="https://www.powerschool.com">PowerSchool</a>.
+    </p>
+  </section>
+
   <div class="row">
-    <div class="col-xs-8">
-      <a href="{{ post.url }}"><i class="fa fa-angle-double-right"></i> {{ post.title }}</a>
-    </div>
-    <div class="col-xs-4 blog-date">
-      <span>{{ post.date | date: "%B %d, %Y" }}</span>
+    <h3>Here are some of my apps</h3>
+    <hr />
+    <div class="col-xs-4">
+      <a href="/transactions">
+        <img class="img-responsive img-thumbnail" src="/assets/img/transactions.png" alt="Transactions - Simple Checkbook" />
+      </a>
     </div>
   </div>
-  {% endfor %}
 </section>
