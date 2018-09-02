@@ -6,7 +6,7 @@ var file = process.cwd() + '/resume.json';
 fs.readFile(file, function(err, resumeJson) {
     var resumeJson;
     if (err) {
-        console.log(chalk.yellow('resume.json does not exist'));
+        console.log('resume.json does not exist');
         return;
     } else {
         resumeJson = JSON.parse(resumeJson);

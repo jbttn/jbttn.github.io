@@ -10,17 +10,20 @@
 - name: Photoshop
   url: http://www.adobe.com/products/photoshop.html
 
-- name: Atom
-  url: https://atom.io/
+- name: Visual Studio Code
+  url: https://code.visualstudio.com/
 
 - name: iOS
-  url: https://developer.apple.com/devcenter/ios/index.action
+  url: https://developer.apple.com/
 
 - name: NodeJS
   url: http://www.nodejs.org/
 
 - name: Ruby on Rails
   url: http://www.rubyonrails.org/
+
+- name: TypeScript
+  url: https://www.typescriptlang.org/
 
 - name: Puns
   url: http://en.wikipedia.org/wiki/Pun

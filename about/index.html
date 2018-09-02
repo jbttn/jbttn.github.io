@@ -3,32 +3,32 @@ layout: default
 title: About
 ---
 
-<section class="row">
-  <div class="col-xs-4">
-    <img class="img-responsive img-thumbnail" src="/assets/img/jbttn_big.jpg" />
+<div class="container">
+  <div class="content is-medium">
+    <section class="section">
+      <div class="columns is-centered">
+        <div class="column is-one-fifth">
+          <img src="/assets/img/jbttn_big.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3 class="title">Stuff I Like</h3>
+      <div class="tags">
+        {% for interest in site.data.interests %}
+        <span class="tag is-medium"><a href="{{ interest.url }}">{{ interest.name }}</a></span>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="section">
+      <h3 class="title">Events I've Been To</h3>
+      <ul>
+        {% for event in site.data.events %}
+        <li><a href="{{ event.url }}">{{ event.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
   </div>
-  <div class="col-xs-8">
-    <h1 class="title">About</h1>
-    <p>
-      {% include about.html %}
-    </p>
-  </div>
-</section>
-<section class="row">
-  <div class="col-xs-12">
-    <h1 class="title">Stuff I Like</h1>
-    <ul id="interests" class="list-inline">
-      {% for interest in site.data.interests %}
-      <li><span class="label label-primary"><a href="{{ interest.url }}">{{ interest.name }}</a></span></li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-<section>
-  <h1 class="title">Events I've Been To</h1>
-  <ul>
-    {% for event in site.data.events %}
-    <li><a href="{{ event.url }}">{{ event.name }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
+</div>

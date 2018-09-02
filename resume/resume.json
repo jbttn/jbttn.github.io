@@ -23,10 +23,19 @@
     },
     "work": [
         {
+            "company": "PowerSchool",
+            "position": "Software Engineer",
+            "website": "https://www.powerschool.com/",
+            "startDate": "2016-10-10",
+            "summary": "iOS and Android",
+            "highlights": []
+        },
+        {
             "company": "Old Republic Title Company",
             "position": "Mobile Applications Developer",
             "website": "http://ortc.com",
             "startDate": "2015-07-20",
+            "endDate": "2016-09-30",
             "summary": "Android development as well as some iOS development in Swift / Objective-C.  Projects focused on enhancing the title and escrow process for agents on the go (OR Connect, Rate CalculatOR) as well as internal applications meant to manage aspects of the enterprise (OR Dashboard, OR Events).",
             "highlights": [
                 "Built OR Events for Android, an app for internal company events similar to the official WWDC and Google I/O apps from Apple and Google",

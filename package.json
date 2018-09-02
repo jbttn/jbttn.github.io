@@ -1,17 +1,14 @@
 {
     "name": "joshuabutton.com",
-    "version": "2.0.5",
-    "dependencies": {
-        "grunt": "~0.4.5",
-        "grunt-contrib-copy": "*",
-        "grunt-exec": "*",
-        "grunt-contrib-sass": "*",
-        "bower": "*",
-        "handlebars": "^2.0.0-alpha.4",
-        "underscore": "^1.6.0",
-        "moment": "^2.8.1"
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/jbttn/jbttn.github.io"
     },
-    "engines": {
-        "npm": "1.2.x"
+    "dependencies": {
+        "bulma": "0.7.1",
+        "handlebars": "4.0.11",
+        "moment": "2.22.2",
+        "underscore": "1.9.1"
     }
 }

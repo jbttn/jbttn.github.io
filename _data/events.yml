@@ -6,3 +6,9 @@
 
 - name: Twitter Flight 2014
   url: https://dev.twitter.com/flight/2014
+
+- name: Google I/O 2017
+  url: https://events.google.com/io2017/
+
+- name: WWDC 2018
+  url: https://developer.apple.com/wwdc/

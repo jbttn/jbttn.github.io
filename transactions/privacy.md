@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: privacy
 title: Privacy Policy
 ---
 
