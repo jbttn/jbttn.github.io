@@ -7,9 +7,7 @@
         "website": "http://www.joshuabutton.com",
         "summary": "Developer",
         "location": {
-            "address": "1130 Whitney Ranch Parkway Apt. 634",
-            "postalCode": "95765",
-            "city": "Rocklin",
+            "city": "El Dorado Hills",
             "countryCode": "US",
             "region": "CA"
         },
@@ -27,8 +25,14 @@
             "position": "Software Engineer",
             "website": "https://www.powerschool.com/",
             "startDate": "2016-10-10",
-            "summary": "iOS and Android",
-            "highlights": []
+            "summary": "iOS and Android development in Swift and Kotlin.  Over 5 million monthly active users on average.",
+            "highlights": [
+                "Led development of a rewrite of the PowerSchool Mobile Android app using modern tools such as Kotlin, Espresso, and Android Jetpack",
+                "Mentored two interns on Android; work on machine learning along with custom UI and accessibility",
+                "Developed a custom collection view layout used to display class information in a grid format",
+                "Researched and integrated Fastlane; allowed for automation of tests and other CI/CD tasks",
+                "Continuous learning to stay on top of new trends and developments in the mobile space and beyond"
+            ]
         },
         {
             "company": "Old Republic Title Company",
@@ -100,21 +104,21 @@
             "name": "Mobile Development",
             "level": "Advanced",
             "keywords": [
-                "AFNetworking", "Android", "Android Studio", "Cocoapods", "Crashlytics", "Fabric", "Gradle", "Grand Central Dispatch", "iOS", "Java", "Model-View-Controller", "Objective-C", "Stroyboards", "Swift", "Testflight", "Xcode"
+                "Android", "Android Jetpack", "Android Studio", "Apollo (GraphQL)", "Cocoapods", "Core Data", "Crashlytics", "Fastlane", "Firebase", "Gradle", "Grand Central Dispatch", "iOS", "Java", "Kotlin", "Model-View-Controller", "Objective-C", "OkHttp", "React Native", "Storyboards", "Swift", "Tensorflow", "Testflight", "Xcode"
             ]
         },
         {
             "name": "Web Development",
             "level": "Moderate",
             "keywords": [
-                "CoffeeScript", "CSS3", "HTML5", "JavaScript", "JSON", "jQuery", "LESS", "NodeJS", "Photoshop", "Ruby on Rails", "SASS", "XML"
+                "Angular", "CSS", "HTML", "JavaScript", "JSON", "LESS", "NodeJS", "Photoshop", "React", "Ruby on Rails", "SASS", "TypeScript", "XML"
             ]
         },
         {
             "name": "APIs, SDKs & Tools",
             "level": "Advanced",
             "keywords": [
-                "Amazon Web Services SDK", "Chromecast SDK", "Dropbox API", "Facebook SDK", "Git", "Github", "Google Drive SDK", "Jenkins", "Pivotal Tracker", "SVN"
+                "Git", "Github", "Gitlab", "Google Analytics", "Jenkins", "JIRA", "Pivotal Tracker", "SourceTree", "SVN"
             ]
         }
     ]
