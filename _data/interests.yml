@@ -1,29 +1,47 @@
+- name: Android
+  url: https://developer.android.com/
+
 - name: C
   url: http://en.wikipedia.org/wiki/C_(programming_language)
 
-- name: Objective-C
-  url: http://en.wikipedia.org/wiki/Objective-C
-
-- name: Ruby
-  url: http://www.ruby-lang.org/
-
-- name: Photoshop
-  url: http://www.adobe.com/products/photoshop.html
-
-- name: Visual Studio Code
-  url: https://code.visualstudio.com/
+- name: GraphQL
+  url: https://graphql.org/
 
 - name: iOS
   url: https://developer.apple.com/
 
+- name: Kotlin
+  url: https://kotlinlang.org/
+
+- name: Nintendo
+  url: https://www.nintendo.com/
+
 - name: NodeJS
   url: http://www.nodejs.org/
+
+- name: Objective-C
+  url: http://en.wikipedia.org/wiki/Objective-C
+
+- name: Photoshop
+  url: http://www.adobe.com/products/photoshop.html
+
+- name: PlayStation
+  url: https://www.playstation.com/en-us/
+
+- name: Puns
+  url: http://en.wikipedia.org/wiki/Pun
+
+- name: Ruby
+  url: http://www.ruby-lang.org/
 
 - name: Ruby on Rails
   url: http://www.rubyonrails.org/
 
+- name: Swift
+  url: https://swift.org/
+
 - name: TypeScript
   url: https://www.typescriptlang.org/
 
-- name: Puns
-  url: http://en.wikipedia.org/wiki/Pun
+- name: Visual Studio Code
+  url: https://code.visualstudio.com/
