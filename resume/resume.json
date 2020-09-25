@@ -21,10 +21,21 @@
     },
     "work": [
         {
+            "company": "PRA Health Sciences - Care Innovations",
+            "position": "Senior Software Engineer",
+            "website": "https://prahs.com",
+            "startDate": "2020-05-11",
+            "summary": "iOS and Android development using React Native",
+            "highlights": [
+
+            ]
+        },
+        {
             "company": "PowerSchool",
             "position": "Software Engineer",
             "website": "https://www.powerschool.com/",
             "startDate": "2016-10-10",
+            "endDate": "2020-05-08",
             "summary": "iOS and Android development in Swift and Kotlin.  Over 5 million monthly active users on average.",
             "highlights": [
                 "Led development of a rewrite of the PowerSchool Mobile Android app using modern tools such as Kotlin, Espresso, and Android Jetpack",
