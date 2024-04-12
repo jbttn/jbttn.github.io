@@ -7,7 +7,7 @@
         "website": "http://www.joshuabutton.com",
         "summary": "Developer",
         "location": {
-            "city": "El Dorado Hills",
+            "city": "Sacramento Metro",
             "countryCode": "US",
             "region": "CA"
         },
@@ -21,13 +21,26 @@
     },
     "work": [
         {
+            "company": "Big Nerd Ranch",
+            "position": "Senior Mobile Developer (iOS)",
+            "website": "https://bignerdranch.com",
+            "startDate": "2021-01-25",
+            "summary": "iOS and macOS consulting projects for high-profile clients, delivering tailored solutions to enhance user experience and business operations.",
+            "highlights": [
+                "Confidential project: Implemented new features to a sophisticated macOS (Cocoa) CRM application tailored for customer support operations of a major enterprise.",
+                "Confidential project: Enhanced a prominent macOS (Cocoa) bug tracking application.  Focused on optimizing search and filtering capabilities to improve usability.",
+                "Confidential project: Significant contributions to a SwiftUI greenfield project focused on in-house fast-food delivery logistics."
+            ]
+        },
+        {
             "company": "PRA Health Sciences - Care Innovations",
             "position": "Senior Software Engineer",
             "website": "https://prahs.com",
             "startDate": "2020-05-11",
-            "summary": "iOS and Android development using React Native",
+            "endDate": "2021-01-15",
+            "summary": "iOS and Android development using React Native.  Consulting with international clients.",
             "highlights": [
-
+                "Developed and optimized several key features for a suite of healthcare applications, enhancing user engagement and client satisfaction."
             ]
         },
         {
@@ -95,7 +108,6 @@
             "area": "Computer Information Systems",
             "studyType": "Bachelor of Science",
             "endDate": "2014-05-31",
-            "gpa": "3.25",
             "courses": [
                 "Upsilon Pi Epsilon, Alpha Chapter",
                 "Mobile Device Programming Teaching Assistant",
@@ -106,8 +118,7 @@
             "institution": "American River College",
             "area": "Computer Programming",
             "studyType": "Associate of Science",
-            "endDate": "2010-05-31",
-            "gpa": "3.5"
+            "endDate": "2010-05-31"
         }
     ],
     "skills": [
@@ -115,7 +126,7 @@
             "name": "Mobile Development",
             "level": "Advanced",
             "keywords": [
-                "Android", "Android Jetpack", "Android Studio", "Apollo (GraphQL)", "Cocoapods", "Core Data", "Crashlytics", "Fastlane", "Firebase", "Gradle", "Grand Central Dispatch", "iOS", "Java", "Kotlin", "Model-View-Controller", "Objective-C", "OkHttp", "React Native", "Storyboards", "Swift", "Tensorflow", "Testflight", "Xcode"
+                "Android", "Android Jetpack", "Android Studio", "Apollo (GraphQL)", "Cocoa", "Cocoapods", "Core Data", "Crashlytics", "Fastlane", "Firebase", "Gradle", "Grand Central Dispatch (GCD)", "GRDB", "iOS", "Java", "Kotlin", "Model-View-Controller (MVC)", "Objective-C", "OkHttp", "React Native", "Storyboards", "Swift", "SwiftData", "SwiftUI", "Swift Concurrency", "Swift Package Manager (SPM)", "Testflight", "Xcode"
             ]
         },
         {
@@ -129,7 +140,7 @@
             "name": "APIs, SDKs & Tools",
             "level": "Advanced",
             "keywords": [
-                "Git", "Github", "Gitlab", "Google Analytics", "Jenkins", "JIRA", "Pivotal Tracker", "SourceTree", "SVN"
+                "Figma", "Git", "Github", "Gitlab", "Google Analytics", "Jenkins", "JIRA", "Miro", "Notion", "Pivotal Tracker", "SourceTree", "SVN"
             ]
         }
     ]
