@@ -29,7 +29,8 @@
             "highlights": [
                 "Confidential project: Implemented new features to a sophisticated macOS (Cocoa) CRM application tailored for customer support operations of a major enterprise.",
                 "Confidential project: Enhanced a prominent macOS (Cocoa) bug tracking application.  Focused on optimizing search and filtering capabilities to improve usability.",
-                "Confidential project: Significant contributions to a SwiftUI greenfield project focused on in-house fast-food delivery logistics."
+                "Confidential project: Significant contributions to a SwiftUI greenfield project focused on in-house fast-food delivery logistics.",
+                "Confidential project: Crafted prose for educational material aimed at developers using macOS and iOS platforms."
             ]
         },
         {
@@ -133,14 +134,14 @@
             "name": "Web Development",
             "level": "Moderate",
             "keywords": [
-                "Angular", "CSS", "HTML", "JavaScript", "JSON", "LESS", "NodeJS", "Photoshop", "React", "Ruby on Rails", "SASS", "TypeScript", "XML"
+                "Angular", "Astro", "CSS", "HTML", "JavaScript", "JSON", "LESS", "NodeJS", "Photoshop", "React", "Ruby on Rails", "SASS", "TypeScript", "XML"
             ]
         },
         {
             "name": "APIs, SDKs & Tools",
             "level": "Advanced",
             "keywords": [
-                "Figma", "Git", "Github", "Gitlab", "Google Analytics", "Jenkins", "JIRA", "Miro", "Notion", "Pivotal Tracker", "SourceTree", "SVN"
+                "C#", "Figma", "Git", "Github", "Gitlab", "Golang", "Google Analytics", "Jenkins", "JIRA", "Miro", "Notion", "Pivotal Tracker", "SourceTree", "SVN"
             ]
         }
     ]
